@@ -1,0 +1,258 @@
+
+/* -----------------------------------------------------------------------------
+	CURED - RESPONSIVE BOOTSTRAP 3 ONE-PAGE HTML/CSS TEMPLATE
+	(Animations v1.00)
+------------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+	CSS Animations
+------------------------------------------------------------------------------- */
+
+	.animated {
+		-webkit-animation-fill-mode:both;
+		-moz-animation-fill-mode:both;
+		-ms-animation-fill-mode:both;
+		-o-animation-fill-mode:both;
+		animation-fill-mode:both;
+		
+		-webkit-animation-delay: 0.2s;
+		-moz-animation-delay: 0.2s;
+		animation-delay: 0.2s;
+		
+		-webkit-animation-duration:1s;
+		-moz-animation-duration:1s;
+		-ms-animation-duration:1s;
+		-o-animation-duration:1s;
+		animation-duration:1s;
+	}
+
+	.appear-second {
+		-webkit-animation-delay: 0.4s;
+		-moz-animation-delay: 0.4;
+		animation-delay: 0.4s;
+	}
+	
+	.appear-third {
+		-webkit-animation-delay: 0.6s;
+		-moz-animation-delay: 0.6s;
+		animation-delay: 0.6s;
+	}
+	
+	.appear-fourth {
+		-webkit-animation-delay: 0.8s;
+		-moz-animation-delay: 0.8s;
+		animation-delay: 0.8s;
+	}
+	
+	.appear-fifth {
+		-webkit-animation-delay: 1s;
+		-moz-animation-delay: 1s;
+		animation-delay: 1s;
+	}
+
+	/* Fade In */
+	
+	@-webkit-keyframes fade-in  {
+		0% {opacity: 0;}
+		100% {opacity: 1;}
+	}
+	
+	@-moz-keyframes fade-in {
+		0% {opacity: 0;}	
+		100% {opacity: 1;}
+	}
+	
+	@-o-keyframes fade-in {
+		0% {opacity: 0;}	
+		100% {opacity: 1;}
+	}
+	
+	@keyframes fade-in {
+		0% {opacity: 0;}
+		100% {opacity: 1;}
+	}
+	
+	.fade-in { opacity: 0; }
+	
+	.fade-in-animation {
+		-webkit-animation-name: fade-in;
+		-moz-animation-name: fade-in;
+		-ms-animation-name: fade-in;
+		-o-animation-name: fade-in;
+		animation-name: fade-in;
+	}
+	
+	/* Zoom In */
+	
+	@-webkit-keyframes zoom-in  {
+		0% {opacity: 0; -webkit-transform: scale(0,0); }
+		100% {opacity: 1; -webkit-transform: scale(1,1); }
+	}
+	
+	@-moz-keyframes zoom-in  {
+		0% {opacity: 0; -moz-transform: scale(0,0); }
+		100% {opacity: 1; -moz-transform: scale(1,1); }
+	}
+	
+	@-o-keyframes zoom-in  {
+		0% {opacity: 0; -o-transform: scale(0,0); }
+		100% {opacity: 1; -o-transform: scale(1,1); }
+	}
+	
+	@keyframes zoom-in  {
+		0% {opacity: 0; transform: scale(0,0); }
+		100% {opacity: 1; transform: scale(1,1); }
+	}
+	
+	.zoom-in { opacity: 0; }
+	
+	.zoom-in-animation {
+		-webkit-animation-name: zoom-in;
+		-moz-animation-name: zoom-in;
+		-ms-animation-name: zoom-in;
+		-o-animation-name: zoom-in;
+		animation-name: zoom-in;
+	}
+	
+	/* Bounce In */
+	
+	@-webkit-keyframes bounce-in  {
+		0% { opacity: 0; -webkit-transform: scale(.3); }
+		50% { opacity: 1; -webkit-transform: scale(1.05); }
+		70% { opacity: 1;-webkit-transform: scale(.9); }
+		100% {opacity: 1; -webkit-transform: scale(1); }
+	}
+	
+	@-moz-keyframes bounce-in  {
+		0% { opacity: 0; -moz-transform: scale(.3); }
+		50% { opacity: 1; -moz-transform: scale(1.05); }
+		70% {opacity: 1; -moz-transform: scale(.9); }
+		100% { opacity: 1;-moz-transform: scale(1); }
+	}
+	
+	@-o-keyframes bounce-in  {
+		0% { opacity: 0; -o-transform: scale(.3); }
+		50% { opacity: 1; -o-transform: scale(1.05); }
+		70% { opacity: 1;-o-transform: scale(.9); }
+		100% { opacity: 1;-o-transform: scale(1); }
+	}
+	
+	@keyframes bounce-in  {
+		0% { opacity: 0; transform: scale(.3); }
+		50% { opacity: 1; transform: scale(1.05); }
+		70% { opacity: 1; transform: scale(.9); }
+		100% { opacity: 1; transform: scale(1); }
+	}
+	
+	.bounce-in { opacity: 0; }
+	
+	.bounce-in-animation {
+		-webkit-animation-name: bounce-in;
+		-moz-animation-name: bounce-in;
+		-ms-animation-name: bounce-in;
+		-o-animation-name: bounce-in;
+		animation-name: bounce-in;
+	}
+	
+	/* Slide In Right */
+	
+	@-webkit-keyframes slide-in-right {
+		0% { opacity: 0; -webkit-transform: translateX(2000px); }	
+		100% { opacity: 1; -webkit-transform: translateX(0); }
+	}
+	
+	@-moz-keyframes slide-in-right {
+		0% { opacity: 0; -moz-transform: translateX(2000px); }	
+		100% { opacity: 1; -moz-transform: translateX(0); }
+	}
+	
+	@-o-keyframes slide-in-right {
+		0% { opacity: 0; -o-transform: translateX(2000px); }	
+		100% { opacity: 1; -o-transform: translateX(0); }
+	}
+	
+	@keyframes slide-in-right {
+		0% { opacity: 0; transform: translateX(2000px); }	
+		100% { opacity: 1; transform: translateX(0); }
+	}
+	
+	.slide-in-right {
+		opacity: 0;
+	}
+	
+	.slide-in-right-animation {
+		-webkit-animation-name: slide-in-right;
+		-moz-animation-name: slide-in-right;
+		-ms-animation-name: slide-in-right;
+		-o-animation-name: slide-in-right;
+		animation-name: slide-in-right;
+	}
+		
+	/* Loader - beat */
+
+	@-webkit-keyframes beating  {
+		0% { opacity: 1; -webkit-transform: scale(.8); }
+		40% { opacity: 1; -webkit-transform: scale(1.1); }
+		60% { opacity: 1; -webkit-transform: scale(.9); }
+		80% { opacity: 1; -webkit-transform: scale(1.1); }
+		100% { opacity: 1; -webkit-transform: scale(.8); }
+	}
+	
+	@-moz-keyframes beating  {
+		0% { opacity: 1; -moz-transform: scale(.8); }
+		40% { opacity: 1; -moz-transform: scale(1.1); }
+		60% { opacity: 1; -moz-transform: scale(.9); }
+		80% { opacity: 1; -moz-transform: scale(1.1); }
+		100% { opacity: 1; -moz-transform: scale(.8); }
+	}
+	
+	@-o-keyframes beating  {
+		0% { opacity: 1; -o-transform: scale(.8); }
+		40% { opacity: 1; -o-transform: scale(1.1); }
+		60% { opacity: 1; -o-transform: scale(.9); }
+		80% { opacity: 1; -o-transform: scale(1.1); }
+		100% { opacity: 1; -o-transform: scale(.8); }
+	}
+	
+	@keyframes beating  {
+		0% { opacity: 1; transform: scale(.8); }
+		40% { opacity: 1; transform: scale(1.1); }
+		60% { opacity: 1; transform: scale(.9); }
+		80% { opacity: 1; transform: scale(1.1); }
+		100% { opacity: 1; transform: scale(.8); }
+	}
+	
+	.beating {
+		-webkit-animation-name: beating;
+		-moz-animation-name: beating;
+		-o-animation-name: beating;
+		animation-name: beating;
+		
+		animation-iteration-count:infinite;
+		-moz-animation-iteration-count:infinite;
+		-webkit-animation-iteration-count:infinite;
+		-o-animation-iteration-count:infinite;
+		-ms-animation-iteration-count:infinite;
+	}
+
+.spin-rotate {
+	-animation: spin .7s infinite linear;
+	-ms-animation: spin .7s infinite linear;
+	-webkit-animation: spinw .7s infinite linear;
+	-moz-animation: spinm .7s infinite linear;
+}
+
+@keyframes spin {
+	from { transform: rotate(0deg);}
+	to { transform: rotate(360deg);}
+}
+
+@-webkit-keyframes spinw {
+	from { -webkit-transform: rotate(0deg);}
+	to { -webkit-transform: rotate(360deg);}
+}
+
+@-moz-keyframes spinm {
+	from { -moz-transform: rotate(0deg);}
+	to { -moz-transform: rotate(360deg);}
+}

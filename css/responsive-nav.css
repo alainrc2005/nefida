@@ -1,0 +1,118 @@
+#nav-toggle {
+  float: right;
+  color: #fff !important;
+  display: none;
+  padding: 18px !important;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+#mobile-menu-wrapper {
+  display: none;
+}
+
+@media screen and (max-width: 991px) {
+  
+  #nav-toggle {
+	  display: block;
+  }
+
+  #main-menu {
+    display: none;
+  }
+
+  #navigation {
+	  width: auto;
+    z-index: 100;
+  }
+
+  #mobile-menu-wrapper {
+    position: relative;
+    display: block;
+  }
+
+  #mobile-menu {
+    margin: 0;
+    padding: 0;
+    float: left;
+    -webkit-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.5);
+  }
+  
+  #mobile-menu a {
+    font-weight: 600;
+    padding: 0;
+    color: inherit;
+  }
+
+  #mobile-menu a:hover,
+  #mobile-menu a:focus {
+    text-decoration: none;
+  }
+  
+  #mobile-menu a:hover,
+  #mobile-menu a:focus {
+    color: #4db5ee;
+  }
+
+  #mobile-menu li {
+    background-color: #fff;
+    float: left;
+    border-right: 1px solid #e9e9e9;
+    padding: 28px 20px;
+  }
+
+  #mobile-menu li a:hover, #mobile-menu li a:focus {
+    background: none repeat scroll 0% 0% transparent;
+  }
+
+  #mobile-menu {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    display: none;
+  }
+  
+  #mobile-menu li {
+	  padding: 15px !important;
+	  -webkit-border-radius: none;
+	  -moz-border-radius: none;
+	  border-radius: none !important;
+	  display: block;
+	  float: none !important;
+	  width: 100%;
+    border-bottom: 1px solid #dde3e5;
+  }
+  
+  #mobile-menu li:last-child {
+	  border-bottom: none;
+	  margin-bottom: 0;
+  }
+  
+  .js #mobile-menu {
+	clip: rect(0 0 0 0);
+	max-height: 0;
+	position: absolute;
+	display: block;
+	overflow: hidden;
+	zoom: 1;
+  }
+
+	 
+} 
+
+@media screen and (min-width: 992px) {
+  #nav-toggle {
+	   display: none;
+  }
+  
+}
+
